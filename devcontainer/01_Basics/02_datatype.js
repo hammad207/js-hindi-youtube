@@ -20,4 +20,3 @@ let isloggedin = false;
 console.log(typeof hamad, typeof age);
  console.log(typeof undefined);//undefined
  console.log(typeof null);//object (bug)
- 
