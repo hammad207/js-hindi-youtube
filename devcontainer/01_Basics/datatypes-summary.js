@@ -40,3 +40,31 @@ const myFunction = function() { //function
 }
 
 console.log(typeof bigNumber);
+
+//*****************************memories****************************************** */
+
+
+//primitive data types stack memory mein store hoti hain
+//non-primitive data types heap memory mein store hoti hain 
+
+//stack memory fast hoti hai aur heap memory slow hoti hai
+//primitive data types ki size choti hoti hai aur non-primitive data types ki size badi hoti hai
+//primitive data types directly value store karti hain aur non-primitive data types reference store karti hain
+
+let myYouTubeChannel = "Hammad Amin";
+let anotherYouTubeChannel = myYouTubeChannel;
+anotherYouTubeChannel = "Code with Hammad";
+
+console.log(myYouTubeChannel);
+console.log(anotherYouTubeChannel);
+
+let userone = {
+    name: "Hammad",
+    age: 18
+}
+
+let usertwo = userone;
+usertwo.age = 19;
+console.log(userone);
+console.log(usertwo);
+
